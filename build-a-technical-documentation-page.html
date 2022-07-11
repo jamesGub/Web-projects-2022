@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Technical Documentation Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="techstyles.css">
+  </head>
+<body>
+ <!-- <div id="box-border"> work this later -->
+   <nav id="navbar">
+     <div class="nav-art">
+    <header id="real-title">HTML: A Topical Overview</header>
+    <div class="div-border">
+        </div>
+    <div class="title-region">
+      <img id="logo" src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" alt="html logo"/>
+<!-- split the box div here    </div> -->
+     
+     <!-- nav list -->
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#How_to_use_HTML">
+        How to use HTML</a></li>
+     <li><a class="nav-link" href="#JavaScript">JavaScript</a></li>
+    <li><a class="nav-link" href="#CSS">CSS</a></li>
+    <li><a class="nav-link" href="#My_HTML_journey">My HTML journey</a></li>
+    <div id="bottom-border" class="div-border">
+  </div>
+  </ul>
+  
+  </nav>
+</div>
+<main id="main-doc">
+<section id="Introduction" class="main-section">
+      <header>Introduction</header>
+      <p>HyperText Markup Language, better known as HTML, began in 1989 and since then, it has been used primarily for building and defining the structure of websites. Through the use of HTML elements, web pages are constructed piece by piece. On a standard webpage, links, images, text, and more are the makeup applied by HTML.</p>
+
+<p>HTML documents are received by web browsers from servers or file-transfer protocols (FTP), from there the browser identifies the HTML code and creates a webpage.</p> 
+
+<p>HTML is instrumental to the development and sustainability of websites, though it is able to go even further with the implementation of styling and enhanced interactivity and features from Cascading-Style Sheets (CSS) and JavaScript (JS) respectively. </p>
+
+<img id="generic" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdimestorerocket.com%2Fwp-content%2Fuploads%2F2020%2F02%2Fhtml-illustration.png&f=1&nofb=1"/ alt="sample html image text">
+</section>
+<hr class="rounded">
+</hr>
+<section  class="main-section" id="How_to_use_HTML">
+  <header>How to use HTML</header>
+  <article class="subtitle">Elements</article>
+  <p>The structure of HTML is primarily elements, as we have stated previously. Their syntax is defined by opening and closing tags < > with a forward slash / for closing an element. Within elements, certain attributes can be given to them such as <code class="no-block">class</code> or <code class="no-block">id</code> which allow them to be identified and targetted by other HTML or individually styled with CSS.</p>
+<p>Think of elements as the building blocks of your website, they are purely structural and meant to be straight forward for this reason.</p>
+<article id="for-figure">Below is a standard HTML boilerplate, the colliquial structure of an HTML document with some exceptions.</article>
+<code><kbd><</kbd>!DOCTYPE html></code>
+<code><kbd><</kbd>html></code>
+<code><kbd><</kbd>head></code>
+<code><kbd><</kbd>link
+<code><kbd><</kbd>meta charset="UTF-8">
+<code><kbd><</kbd>/head></code>
+<code><kbd><</kbd>body></code>
+<code><kbd><</kbd>p> Hello world! <kbd><</kbd>/p>
+<code><kbd><</kbd>/body></code>
+<code><kbd><</kbd>/html></code>
+
+<p id="below-figure">Breaking this down, the <code class="no-block">!DOCTYPE</code> followed by the <code class="no-block">html</code> and information within the <code class="no-block">head</code> is required for every webpage. These elements declare necessary information to the browser as to what the document is, if it links to any external sheets, etc. After these preliminary tags are initiated, the <code class="no-block">body</code> is where the overall content of the page resides.<p>
+
+<!-- <article id="for-figure">The figure below gives a visualization of how the elements come together. As one gets more acquainted with HTML, this sight will be all too familiar.</article> -->
+
+<figure>
+  <img id="figure" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstephenbero.com%2Fwp-content%2Fuploads%2F2018%2F05%2Fhtml5-boilerplate.png&f=1&nofb=1" alt="html figure"/>
+<figure>
+  <figcaption>
+This sample illustrates the code we listed previously and shows how the elements come together, as one becomes more acquainted with HTML, this sight will be all too familiar. 
+    </figcaption>
+<p id="conclusion"> Now that you know the basics of HTML elements, tags, and syntax, it is time for the discussion of attributes, along with some more basic rules and ways you can get started. </p>
+
+<article class="subtitle" id="new-sec">Attributes</article> 
+<p class="sec-start">To put it simply, HTML attributes give elements additional information and definitions. Certain attribute tags such as <code class="no-block">img</code> will not properly activate unless given the correct attributes, which in its case are the <code class="no-block">src</code> to define the image's source and <code class="no-block">alt</code> which are crucial for accesibility reasons. 
+
+<p class="sec-start">In addition to attributes giving certain elements their function, they can also incorporate characteristics to further define your elements. The <code class="no-block">width</code> and <code class="no-block">height</code> attributes ascribe, as their names entail, dimensions to HTML elements. Using our <code class="no-block">img</code> example, we can assign the image to have whatever dimensions we please. </p>
+
+<article>Here is what that code would look like with attributes tacked onto it. Remember, when dealing with images, it is always best practice to use an <code class="no-block">alt</code> tag!
+<code> <kbd><</kbd>img src="name.jpg" width="500" height="600" alt="you!"></code>
+</article>
+
+<p class="sec-start">There are a multitude of HTML attributes to experiment with in your own code, and once we get into discussions about CSS, attributes will be a key aspect of determining the style of your elements and making attractive webpages</p>
+
+<p class="sec-start">For more information on attributes, we highly recommend clicking the following <a href="https://www.w3schools.com/html/html_attributes.asp">link</a>, which will forward you to w3 schools' section on HTML attributes and a reference for every HTML attribute!</p>
+</section>
+<hr class="rounded">
+</hr>
+<section id="JavaScript" class="main-section">
+  <header>JavaScript</header> 
+ <p> JavaScript or JS is an object-oriented scripting programming langauge, its use varies widely, though for our purposes we will be discussing JavaScript's applications towards building websites. Along with HTML and CSS, it is apart of the modern web-development trifecta and is used in many websites today.  </p>
+<p> JavaScript's interconnectivity with HTML allows websites built with the languages to have interactive and optimized features, providing a new layer of customization and character to websites.</p>
+
+<article>Though this is not a crash course on JavaScript, we will provide a list of some central aspects within the language.
+  <ul>
+    <li><b>Variables</b>: In JavaScript, variables are a central component. They are containers that house data and information, usually in the form of values. Variables are then assigned with <b>identifiers</b>. For example, <code class="no-block">let x = 10</code> holds a value, being 10, with the identifier being x.</li>
+    <li><b>Operators</b>: They are symbols used with values that perform operations, exactly the same way as algebra. +, -, and = are all forms of operators that have different functionalities. The <code class="no-block"> = </code> operator is used to assign values. In our <code class="no-block">let x = 10</code> example, the equals sign set the value of x to 10. If that <code class="no-block">=</code> operator was a <code class="no-block">+</code> or <code class="no-block">-</code> then the statement would not be true. There are many forms of operators, for more, click <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators">here</a>.
+    <li><b>Data Types</b>: The values within variables differ in their form of data, in this section, the following can be applied to many programming langauges that use the same form of declaration for data. 
+    <ul>
+      <li>String - An arrangment of characters to make text, assigned by '' marks. 
+      </li>
+    <li>Number - Simply put, a number. No additional punctuation needed. 
+      </li>
+    <li> Array - Allows multiple values to be stored, can include strings and numbers
+      </li>
+    <li>Objects - Can be a combination of characteristics and properties, not restricted by syntax that the other data types are. Objects are key to effective JavaScript code.
+      </li>
+      </ul>
+  </ul>
+  </article>
+<p>In HTML, JavaScript can be implemented in a few ways, such as using the <code class="no-block"><kbd><</kbd>script></code> tag. By opening one, you can input pure JavaScript code within it to execute the function. Or one can use external JavaScript, by plugging in a .js file in a <code class="no-block">link</code> element within the <code class="no-block">head</code>, the JavaScript in that file will then be functional without taking up any space on the HTML page.</p>
+<p>For web developers, JavaScript is essential for the behavior of webpages and is unavoidable in today's digital climate. Though the next main section will cover the final piece in this web development whole, being CSS.</p>
+
+<img id="figures" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fphantomlandscapes.files.wordpress.com%2F2021%2F04%2Fhtml-css-javascript.jpg%3Fw%3D1024%26h%3D576&f=1&nofb=1">
+
+</section>
+<hr class="rounded">
+</hr>
+<section id="CSS" class="main-section">
+<header>CSS</header>
+<p> Cascading Style Sheets or CSS is a sister language to HTML and JavaScript, and is responsible for the presentation and style of a webpage. Colors, fonts. and spacing are just some of the functions allowed by CSS. In terms of presentation, CSS can be used to tailor to accesibility and is instrumental in doing so.</p>
+
+<article class="subtitle">Syntax
+  <p>The syntax for CSS is relatively straightforward, as its keywords are in English. The usage of rules, selectors, and pseudo-selectors are unique to CSS and is where its syntax really comes into fruition. The example below shows what an average set of CSS looks like.</p>
+  <code>
+h1 {
+  color: white;
+  text-align: center;
+}
+</code>
+<code>
+p {
+  font-family: Impact;
+  font-size: 15px;
+}
+</code>
+<p>As we can see, the {} contain the style that is applied to the HTML elements, which is determined by the selector. So if one wanted to apply a different font to their <code class="no-block">p</code> element, they would target it and apply their desired font and other styles.</p>
+
+<p>With CSS we can target more than just elements, as selectors can be used for <code class="no-block">id</code> and <code class="no-block">class</code> attributes can be targetted to further specify the styling of particular elements. If one wanted to do so, they would use a <code class="no-block">#</code> for <code class="no-block">id</code> and <code class="no-block">.</code> for <code class="no-block">class</code>, CSS is full of these kinds of intricacies to make styling a particular thing in HTML efficient and precise.</p>
+
+<p>Like JavaScript, CSS can be inputted internally or externally, using the <code class="no-block">style</code> tag or external .css stylesheet file linked in the beginning of your HTML document. Both are valid, though external is the norm for the sake of uncluttered HTML.</p>
+</article>
+</section>
+<hr class="rounded">
+</hr>
+<section class="main-section"  id="My_HTML_journey">
+<header id="pseudo">My HTML journey</header>
+<footer>
+  <header>My HTML journey</header>
+<p>Before closing this documentation, I wanted to include a bit of my history with HTML as something to look back on for myself to reflect. As someone who knew nothing about nothing when it came to coding, I am very fortunate for the simplicity and beginner-friendly nature of HTML. Starting on freeCodeCamp.org, I was learning the absolute basics and then creating projects with CSS incorporation in no-time.</p>
+
+<p>It is not an understatement to say that HTML kickstarted my passion for coding, I would not be making this page if I was not passionate about learning the ways of web development and langauges beyond.</p>
+  </footer>
+</section> 
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survey Form</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="p-surveystyle.css"/>
+</head>
+<body>
+  <header>
+<h1 id="title"><u>Programming Survey</u></h1>
+
+<p id="description">Interested in programming? Fill out this form and tell us why!</p>
+</header>
+<form id="survey-form">
+  <fieldset>
+    <h2>1. Preliminary Questions</h2>
+    <hr></hr>
+<label id="name-label">
+  What programming languages do you know? (If any).<input id="name" type="text" placeholder="Enter their name(s)" required >
+  </input></label>
+
+<label id="number-label">How long have you been programming?<input id="number" type="number" placeholder="In months/years" min="0" max="100">
+  </input></label>
+
+<label id="email-label">Enter your email address<input id="email" type="email" placeholder="Enter your email" required>
+  </input></label>
+<hr></hr>
+<div>
+  <h3>2. What do you use programming for? </h3>
+  
+<select id="dropdown">
+  
+
+  <option id="dropdown-title" value="">Select from these options...</option>
+  <option value="1">Web development - HTML/CSS/JavaScript/PHP</option>
+  <option value="2">Software development - Java/Python/JavaScript</option>
+  <option value="3">Computer systems engineering - C/C++/Java</option>
+  <option value="4">Game development - C++/Java/Python/Unity</option>
+  <option value="5">Just for fun! Or other reasons :)</option>
+  </select>
+  <p>Do you enjoy programming?</p>
+ <input value="yes" type="radio" name="account-type" class="inline"/>Yes! I do enjoy it.</label>
+  <label><input value="not"type="radio" name="account-type" class="inline"/>No, I don't enjoy it.</label>
+<!-- <label><input value="maybe" type="radio"
+  name="opinion" class="inline"/>I'm somewhere in the middle</label> -->
+<hr></hr>
+  <label id="bio-info">Give a brief description of your programming experiences.
+  <textarea id="bio" name="bio" rows="3" cols="30" placeholder="What're your thoughts?"></textarea></label>
+
+  </div>
+  <hr></hr>
+  <div>
+<h3>3. Programming Careers</h3>
+ <label id="career-title"> Lastly, would you consider programming as a job? </label>
+ 
+ <label> 
+   <input 
+  class="checkmark"
+ value="yes"  type="checkbox" name="check-it"
+   required />Yes, I would like to program as a job.</label>
+    <label> 
+   <input class="checkmark"
+ value="no"  type="checkbox" name="check-it"
+   required />No, I wouldn't program professionally.</label>
+    <label> 
+   <input  class="checkmark"
+ value="unsure"  type="checkbox" name="check-it"
+   required />I am not sure yet.</label>
+   <hr id="foot"></hr>
+   <input type="submit" id="submit" value="Submit here!" />
+   </form>
+  </div>
+   </fieldset>
+
+</body>
+</html>

@@ -1,0 +1,135 @@
+body {
+  width: 100%;
+  height: 500vh;
+  margin-top: 3rem;
+  background-color: #1b1b32;
+	color: #f5f6f7;
+  font-family: Tahoma;
+	font-size: 16px;
+  /*background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F5%2F7%2F3%2F538092.jpg&f=1&nofb=1');*/
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0cc981;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  height: 13%;
+
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+h2, h3 {
+  text-align: center;
+  font-family: 'Exo 2', sans-serif;
+
+}
+
+#name-label, #number-label, #email-label {
+  padding: 0.4rem;
+  margin: 0.2rem;
+  padding-bottom: 0.3rem;
+}
+hr {
+  color: aquamarine;
+}
+
+form {
+  width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+
+fieldset {
+  border: 3px solid #3b3b4f;
+  border-bottom: 3px solid  #3b3b4f;
+  padding: 1rem 0;
+  margin-top: 10rem;
+  
+}
+
+#dropdown {
+  border-radius: 2%;
+  color: white;
+  font-size: 16px;
+  background-color: #0cc891;
+  margin: 0;
+  margin-bottom: 0.5rem
+
+}
+
+
+label {
+  display: block;
+	margin: 0.5rem 0;
+  display: flex;
+
+}
+
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+	width: 100%;
+  min-height: 2em;
+}
+
+
+input, textarea {
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: aquamarine;
+  padding: 0.3rem 0.4rem 0.2rem 0.6rem
+}
+
+#bio-info {
+  padding-left: 0.4rem;
+  padding-top: 0.5rem;
+}
+
+#bio {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 12px;
+  margin-right: 0.4rem;
+  margin-top: 0.5rem;
+}
+#career-title {
+  margin-left: 1rem
+}
+.checkmark {
+  width: 10%;
+  margin: 0.3rem 0 0.2rem 0.4rem;
+  vertical-align: middle;
+}
+.inline {
+  width: 6%;
+  margin: 0 0.5rem 0 5rem;
+  vertical-align: middle;
+}
+
+#foot {
+  margin-top: 2rem
+}
+
+input[type="submit"] {
+  display: block;
+  width: 90%;
+  margin: 1em auto;
+  height: 3rem;
+  font-size: 20px;
+  background-color: #0cc981;
+  border-color: white;
+  color: white;
+  
+}
